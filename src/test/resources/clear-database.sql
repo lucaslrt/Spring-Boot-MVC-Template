@@ -1,0 +1,10 @@
+DELETE
+FROM phone;
+DELETE
+FROM address;
+DELETE
+FROM person;
+
+ALTER SEQUENCE phone_id_seq RESTART WITH 1;
+ALTER SEQUENCE address_id_seq RESTART WITH 1;
+ALTER SEQUENCE person_id_seq RESTART WITH 1;
